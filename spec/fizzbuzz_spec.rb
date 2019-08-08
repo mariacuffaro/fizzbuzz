@@ -30,4 +30,7 @@ describe "fizzbuzz" do
   it 'returns "fizzbuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq ("fizzbuzz")
   end
+  it 'returns "Not an number" when passed A' do
+    expect(fizzbuzz("A")).to eq ("Not an number")
+  end
 end
