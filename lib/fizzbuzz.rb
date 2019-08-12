@@ -2,7 +2,7 @@ def fizzbuzz(num)
 
   begin
     n = Integer(num)
-  rescue ArgumentError
+    rescue ArgumentError
     return "Not an number"
   end
 
@@ -16,4 +16,5 @@ def fizzbuzz(num)
     else
       return num
   end
+  
 end
